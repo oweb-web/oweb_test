@@ -1,0 +1,103 @@
+/* common.css */
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+li,ol,ul{list-style: none;}
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+body{
+    background: #ece5db;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 2;
+    font-size: 100%;
+    text-transform: uppercase;
+}
+button { 
+    background: none;
+    border: none;
+    outline: none;
+}
+section {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+img{
+    width: 100%;
+}
+
+/* 스크롤 */
+/* Centered texts in each section
+* --------------------------------------- */
+.section{
+    text-align:center;
+}
+
+/* Overwriting styles for control arrows for slides
+* --------------------------------------- */
+.controlArrow.prev {
+    left: 50px;
+}
+.controlArrow.next{
+    right: 50px;
+}
+    
+
+/************************ 스킬바*************************/
+.progressbar {
+	/* outline: 1px solid red; */
+    width: 250px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	position: relative;
+	background-color: #EEEEEE;
+	/* box-shadow: inset 0px 1px 1px rgba(0,0,0,.1); */
+}
+
+.proggress{
+	height: 5px;
+	width: 10px;
+	background-color: #ce8624;
+}
+
+.percentCount{
+	float: right;
+	margin-top: 5px;
+	clear: both;
+	font-weight: normal;
+    /* color: #ce8624; */
+}
+
+/* 버튼 */
+.btn {
+    margin-top: 30px;
+    display: inline-block;
+    background: transparent;
+    cursor: pointer;
+    letter-spacing: 0.3em;
+    color: #354739;
+    padding: 10px 70px;
+    transition: all 0.4s ease-out;
+    background: linear-gradient(270deg, #5fa89a71, #55795d52, #35473900, #35473900);
+    background-position: 1% 50%;
+    background-size: 300% 300%;
+    /* margin: 0.625rem; */
+    /* border: none; */
+    border: 1px solid #354739;
+  }
+  
+  .btn:hover {
+    color: #fff;
+    border: 1px solid rgba(223,190,106,0);
+    /* color: $white; */
+    background-position: 99% 50%;
+  }

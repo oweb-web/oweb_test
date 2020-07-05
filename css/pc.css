@@ -1,0 +1,328 @@
+/* pc.css */
+#fullpage .section{
+    width: 1280px;
+    margin: 0 auto;
+    /* outline: 2px solid red; */
+    cursor: default;
+    z-index: 1;
+}
+/*********** section0 ************/
+#section0 #title{
+    width: 1280px;
+    color:#354739 ;
+    text-align: left;
+}
+#title h1{
+    font-size: 110px;
+}
+#title h2{
+    font-size: 40px;
+}
+#section0 #title 
+.box{
+    position: absolute;
+    display: block;
+    width: 630px;
+    height: 65px;
+    background: #ce8624;
+    left: calc( 50% - 700px);
+    bottom: calc( 50% + 20px);
+    z-index: -1;
+}
+#section0 #title .line{
+    position: absolute;
+    display: block;
+    width: 270px;
+    height: 5px;
+    background: #ce8624;
+    left: calc( 50% - 660px);
+    bottom: calc( 50% - 110px);
+}
+#section0 #title .line:last-child{
+    position: absolute;
+    display: block;
+    width: 600px;
+    height: 5px;
+    background: #ce8624;
+    left: calc( 50% - 620px);
+    bottom: calc( 50% - 190px);
+}
+/*********** section1 ************/
+#profile{
+    position: relative;
+}
+.personal_data{
+    float: left;
+    text-align: left;
+    line-height: 2.6em;
+    color:#354739;
+}
+.personal_data .character{
+    width: 710px;
+    height: 230px;
+    margin-bottom: 20px;
+    /* position: absolute;
+    top: calc(50% - 60px); */
+}
+.personal_data .character{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    opacity: 0.9;
+}
+.personal_data h1{
+    font-size: 2.6em;
+    margin-bottom: 45px;
+}
+.personal_data h2{
+    padding-top: 36px;
+    margin-bottom: 10px;
+}
+.personal_data p{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.skill{
+    float: left;
+    margin-left: 180px;
+    margin-top: 160px;
+}
+.skill ul li{
+    text-align: left;
+    font-weight: bold;
+    color:#354739;
+}
+.skill h3{
+    padding-top:30px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.5em;
+    color:#354739;
+    margin-bottom: 20px;
+    /* outline: 1px solid red; */
+}
+.personal_data .box1{
+    position: absolute;
+    display: block;
+    width: 110px;
+    height: 35px;
+    /* outline: 2px solid red; */
+    background: #ce8624;
+    left: calc( 50% - 625px);
+    bottom: calc( 50% - 383px);
+    z-index: -1;
+}
+.skill .box2{
+    position: absolute;
+    display: block;
+    width: 70px;
+    height: 25px;
+    /* outline: 2px solid red; */
+    background: #ce8624;
+    left: calc( 50% + 250px);
+    bottom: calc( 50% - 225px);
+    z-index: -1;
+}
+/*********** section2 ************/
+/* web */
+#web_portfolio,#mobile_portfolio{
+    width: 1280px;
+    color: #354739;
+    cursor: default;
+    position: relative;
+    overflow: hidden;
+}
+#web_portfolio .sub_title,#mobile_portfolio .sub_title{
+    /* padding-top: 50px; */
+    /* position: absolute; */
+    z-index: 1;
+    text-align: left;
+    margin-bottom: 80px;
+}
+#web_portfolio .line3, #mobile_portfolio .line3{
+    position: absolute;
+    display: block;
+    width: 85px;
+    height: 25px;
+    background: #ce8624;
+    z-index: -1;
+    top: calc(10% - 30px);
+}
+#mobile_portfolio .line3{
+    width: 135px;
+    top: calc(10% - 35px);
+}
+.sub_menu1{
+    position: absolute;
+    left: calc(20% - 21px);
+    width: 135px;
+    color: #354739;
+    margin-bottom: 20px;
+}.sub_menu2{
+    position: absolute;
+    top:  calc( 50% - 141px);
+    left: calc(20% - 21px);
+    width: 135px;
+    color: #354739;
+}
+.sub_menu1 ul li, .sub_menu2 ul li{
+    display: inline-block;
+    font-weight: bold;
+    margin: 8px;
+    cursor: pointer;
+}
+.cafe.show, .animal.show, .tea.show,.shop.show, .wedding1.show, .wedding2.show, .library.show,.parking.show{
+    color: #ce8624;
+}
+.wpf_list, .mpf_list{
+    text-align: right;
+    width: 1000px;
+    margin: 0 auto;
+    display: none;
+    line-height: normal;
+    overflow: hidden;
+}
+.wpf_list.show, .mpf_list.show{
+    display: block;
+}
+.wpf_list .info{
+    padding-top: 40px;
+}
+.mpf_list .info{
+    margin-top: 100px;
+}
+.wpf_list h2, .mpf_list h2{
+    margin-top: 30px;
+}
+.wpf_list p, .mpf_list p{
+    line-height: 2em;
+}
+/* 프로그램 */
+#program {
+    margin: 15px 0;
+}
+#program li{
+    color: #354739;
+    display: inline-block;
+    height: 8px;
+    padding-right: 5px;
+}
+#program li:last-child{
+    padding-right: 0;
+}
+/* 화면 */
+.wpf_list .pc{
+    /* position: absolute; */
+    /* left:120%;
+    top: -25%; */
+    width: 700px;
+    float: right;
+    margin-left: 80px;
+}
+.mpf_list .phone img{
+    margin: 0 auto;
+}
+.mpf_list .phone{
+    /* height: 350px; */
+    width: 250px;
+    margin: 0 auto;
+    float: right;
+    padding: 0 261px;
+    box-sizing: content-box;
+}
+/* 호버시 스크롤 되는 화면 */
+
+.web_img {
+    width: 550px;
+    height: 350px;
+    position: absolute;
+    top:  calc( 50% - 103px);
+    left:  calc( 50% - 120px);
+    z-index: -1;
+    overflow: hidden;
+}
+
+.web_img img {
+    width: 550px;
+    transition: all 3s;
+    transition-timing-function: ease;
+    /* outline: 1px solid red; */
+}
+
+#web1:hover .web_img img{
+    transition: all 5s;
+    transition-timing-function: ease;
+    transform: translate(0, -678px);
+}
+#web2:hover .web_img img {
+    transition: all 5s;
+    transition-timing-function: ease;
+    transform: translate(0, -394px);
+}
+#web3:hover .web_img img {
+    transition: all 5s;
+    transition-timing-function: ease;
+    transform: translate(0, -358px);
+}
+#web4:hover .web_img img {
+    transition: all 5s;
+    transition-timing-function: ease;
+    transform: translate(0, -560px);
+}
+.hover_circle {
+    position: absolute;
+    top: calc(50% + 150px);
+    left: calc(50% + 320px);
+    color: #fff;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding: 20px 0;
+    border-radius: 50%;
+    opacity: 1;
+    z-index: 1;
+}
+.hover_circle {
+    background: #52a593e0;
+}
+.fa-mouse-pointer {
+    font-size: 25px;
+    text-align: center;
+    line-height: 1.5em;
+}
+.m_circle:hover .hover_circle {
+    transition: .3s;
+    opacity: 0;
+}
+/*********** section3 ************/
+#contact {
+    overflow: hidden;
+    color: #354739;
+    cursor: default;
+    letter-spacing: 0.1em;
+    /* position: relative; */
+    text-transform: lowercase;
+}
+
+#contact h1{
+    text-transform: uppercase;
+    font-size: 2.5em;
+}
+#contact .line5{
+    position: absolute;
+    display: block;
+    width: 280px;
+    height: 35px;
+    background: #ce8624;
+    left: calc( 50% - 100px);
+    top: calc( 50% - 305px);
+    z-index: -1;
+}
+#contact img{
+    width: 300px;
+    padding: 80px 0 40px 0;
+}
+#contact h4{
+    padding-top: 65px;
+}

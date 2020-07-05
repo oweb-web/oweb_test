@@ -1,0 +1,264 @@
+/* mibile.css */
+#fullpage .section{
+    width: 100%;
+    margin: 0 auto;
+    cursor: default;
+    z-index: 1;
+}
+#fp-nav.fp-left {
+    left: 1px;
+}
+.fp-controlArrow.fp-prev {
+    left: 25px;
+    border-width: 28.5px 24px 28.5px 0px;
+    border-color: transparent #ce8624 transparent transparent;
+}
+.fp-controlArrow.fp-next {
+    right: 25px;
+    border-width: 28.5px 0 28.5px 24px;
+    border-color: transparent transparent transparent #ce8624;
+}
+/*********** section0 ************/
+#section0 #title{
+    color:#354739 ;
+}
+#title h1{
+    font-size: 55px;
+}
+#title h2{
+    font-size: 20px;
+}
+#section0 #title 
+.box{
+    position: absolute;
+    display: block;
+    width: 300px;
+    height: 35px;
+    background: #ce8624;
+    left: calc( 50% - 166px);
+    bottom: calc( 50% + 10px);
+    z-index: -1;
+}
+/*********** section1 ************/
+#profile{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    color:#354739;
+}
+.personal_data{
+    line-height: 1.7em;
+}
+.personal_data h1{
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+.personal_data h2{
+    /* padding-top: 16px; */
+    margin-bottom: 10px;
+}
+.personal_data p{
+    font-size: 1em;
+}
+.personal_data .m_n{
+    display: none;
+}
+.personal_data p:last-child{
+    margin-bottom: 30px;
+}
+.skill ul li{
+    margin-left: calc(50% - 160px);
+    text-align: left;
+    font-weight: bold;
+    font-size: 14px;
+}
+.percentCount{
+    float: right;
+    position: absolute;
+    top: calc(50% - 48px);
+    left: calc(50% + 130px);
+	clear: both;
+	font-weight: normal;
+    /* color: #ce8624; */
+    font-size: 13px;
+}
+.skill div{
+    margin-left: calc(50% - 173px);
+}
+.skill h3{
+    display: none;
+}
+.personal_data .box1{
+    position: absolute;
+    display: block;
+    width: 85px;
+    height: 28px;
+    /* outline: 2px solid red; */
+    background: #ce8624;
+    left: calc( 50% - 40px);
+    bottom: calc( 50% + 227px);
+    z-index: -1;
+}
+.skill .box2{
+    position: absolute;
+    display: block;
+    width: 55px;
+    height: 5px;
+    background: #ce8624;
+    left: calc( 50% - 28px);
+    bottom: calc( 50% + 50px);
+    z-index: -1;
+}
+/*********** section2 ************/
+/* web */
+#web_portfolio,#mobile_portfolio{
+    width: 100%;
+    margin: 0 auto;
+    color: #354739;
+    cursor: default;
+    position: relative;
+    overflow: hidden;
+}
+#web_portfolio .sub_title,#mobile_portfolio .sub_title{
+    /* padding-top: 50px; */
+    /* position: absolute; */
+    z-index: 1;
+    text-align: center;
+    margin-bottom: 65px;
+}
+#web_portfolio .line3, #mobile_portfolio .line3{
+    position: absolute;
+    display: block;
+    width: 80px;
+    height: 4px;
+    top: calc(50% - 218px);
+    left: calc(50% - 40px);
+    background: #ce8624;
+    z-index: -1;
+}
+#mobile_portfolio .line3{
+    top: calc(50% - 243px);
+    left: calc(50% - 40px);
+}
+.sub_menu1{
+    font-size: 12px;
+    position: absolute;
+    top: calc(50% - 217px);
+    left: calc(50% - 47px);
+    width: 95px;
+    color: #354739;
+    margin-bottom: 20px;
+}.sub_menu2{
+    font-size: 12px;
+    position: absolute;
+    top: calc(50% - 237px);
+    left: calc(50% - 47px);
+    width: 95px;
+    color: #354739;
+    margin-bottom: 20px;
+}
+.sub_menu1 ul li, .sub_menu2 ul li{
+    display: inline-block;
+    font-weight: bold;
+    margin: 5px;
+    cursor: pointer;
+}
+.cafe.show, .animal.show, .tea.show,.shop.show, .wedding1.show, .wedding2.show, .library.show,.parking.show{
+    color: #ce8624;
+}
+.wpf_list, .mpf_list{
+    /* text-align: right; */
+    width: 100%;
+    margin: 0 auto;
+    display: none;
+    line-height: normal;
+    overflow: hidden;
+}
+.wpf_list.show, .mpf_list.show{
+    display: block;
+}
+.wpf_list h2, .mpf_list h2{
+    /* outline: 1px solid pink; */
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.wpf_list p, .mpf_list p{
+    line-height: 1.6em;
+}
+/* 프로그램 */
+#program {
+    margin: 4px 0;
+}
+#program li{
+    color: #354739;
+    display: inline-block;
+    height: 8px;
+    padding-right: 5px;
+}
+#program li:last-child{
+    padding-right: 0;
+}
+/* 화면 */
+.wpf_list .pc{
+    margin: 0 auto;
+    width: 250px;
+}
+.mpf_list .phone{
+    margin: 0 auto;
+    width: 120px;
+}
+/* 호버시 스크롤 되는 화면 */
+.web_img {
+    width: 200px;
+    height: 125px;
+    position: absolute;
+    top:  calc( 50% - 132px);
+    left:  calc( 50% - 100px);
+    z-index: -1;
+    overflow: hidden;
+}
+.fa-mouse-pointer {
+    display: none;
+}
+.btn{
+    margin-top: 15px;
+}
+/*********** section3 ************/
+#contact {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    color: #354739;
+    cursor: default;
+    letter-spacing: 0.1em;
+    /* position: relative; */
+    text-transform: lowercase;
+}
+
+#contact h1{
+    text-transform: uppercase;
+    font-size: 1.8em;
+}
+#contact .line5{
+    position: absolute;
+    display: block;
+    width: 200px;
+    height: 30px;
+    background: #ce8624;
+    left: calc( 50% - 90px);
+    top: calc( 50% - 210px);
+    z-index: -1;
+}
+#contact img{
+    width: 250px;
+    padding: 10px 0 20px 0;
+}
+#contact h3{
+    font-size: 1.1em;
+}
+#contact h4{
+    padding-top: 25px;
+}
